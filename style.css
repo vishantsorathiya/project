@@ -1,0 +1,26 @@
+.carousel-inner{
+    height: 50vh;
+    padding-bottom: 35%;
+}
+
+.carousel-item{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.message-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  
+  

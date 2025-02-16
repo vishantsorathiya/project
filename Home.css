@@ -1,0 +1,168 @@
+/* Hero Section */
+.hero-section .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .hero-section .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section .carousel-caption p {
+    font-size: 1.25rem;
+    color: #fff;
+  }
+  
+  /* Search Bar */
+  .search-section .search-input {
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 1px solid #ced4da;
+  }
+  
+  .search-section .search-btn {
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  
+  .search-section .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-section {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Category Filter */
+  .category-section .category-scroll {
+    overflow-x: auto;
+  }
+  
+  .category-section .btn {
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .category-section .btn.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .category-section .btn:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+  
+  /* Food Items Grid */
+  .food-items-section .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .food-items-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .food-items-section .card img {
+    border-bottom: 2px solid #f8f9fa;
+  }
+  
+  .food-items-section .card-body {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  /* Empty State */
+  .empty-state {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .empty-state i {
+    font-size: 4rem;
+    color: #6c757d;
+  }
+  
+  .empty-state h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .empty-state p {
+    color: #777;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #f8f9fa;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #007bff;
+  }
+  
+  /* General Body & Containers */
+  .home-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section .carousel-caption h1 {
+      font-size: 2rem;
+    }
+  
+    .search-section .search-input {
+      padding-left: 15px;
+    }
+  
+    .food-items-section .row {
+      justify-content: center;
+    }
+  
+    .category-section .btn {
+      font-size: 1rem;
+      padding: 6px 15px;
+    }
+  
+    .empty-state i {
+      font-size: 3rem;
+    }
+  }
+  
